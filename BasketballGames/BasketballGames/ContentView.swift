@@ -26,7 +26,6 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            
             List(results, id: \.id) { item in
                 VStack(alignment: .leading) {
                     HStack {
@@ -46,7 +45,6 @@ struct ContentView: View {
                             .foregroundStyle(.secondary)
                             .font(.subheadline)
                     }
-                    
                 }
             }
             .navigationTitle("UNC Basketball")
